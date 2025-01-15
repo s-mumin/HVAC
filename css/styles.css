@@ -105,7 +105,7 @@ a{
     /* margin: 200px;
     height: 40vh;
     width: 100vw; */
-    background-image: url("/images/image-1.jpg");
+    background-image: url("/images/ventillation.jpg");
 clip-path: polygon(100% 0, 100% 100%, 45% 100%, 67% 0);
 position: absolute;
 }
