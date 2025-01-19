@@ -1006,3 +1006,158 @@ i {
     align-items: center;
   }
 }
+
+@media only screen and (max-width: 460px) {
+  body {
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Gruppo', cursive;
+  }
+
+  /* #navbar {
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    justify-content: center;
+    width: 20%;
+  } */
+
+
+  #navbar {
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: white;
+  }
+
+  .navbar-brand,
+  .navbar-links {
+    margin: 0 -70px;
+    padding: 0px;
+    align-items: center;
+    /* margin-left: 180px; */
+    /* padding: -20px; */
+  }
+
+  /* .navbar-links {
+    visibility: hidden;
+  } */
+
+  .navbar-brand{
+    visibility: visible;
+    /* margin-left: 300px; */
+  }
+
+  /* .navbar-brand h3 {
+    visibility: hidden;
+  } */
+
+  /* #toggle {
+    visibility: visible;
+  } */
+
+  /* .main-buttons {
+    margin-top: -30px;
+  } */
+
+  /* .main-buttons button {
+    font-size: 15px;
+    padding: 0px 0px;
+    z-index: 1;
+    margin: 15px 5px;
+  } */
+
+  .submenu {
+    background-color: rgb(72, 72, 214);
+    padding: 50px;
+    height: 20%;
+  }
+
+  .submenu h2 a {
+    color: #ffffff;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 380px) {
+  body {
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Gruppo', cursive;
+  }
+
+  #navbar {
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: white;
+  }
+
+  .navbar-brand,
+  .navbar-links {
+    margin: 0 -70px;
+    padding: 0px;
+    align-items: center;
+    /* margin-left: 180px; */
+    /* padding: -20px; */
+  }
+  .submenu {
+    width: 100%;
+    background-color: rgb(72, 72, 214);
+    padding: 50px;
+    height: 20%;
+  }
+  /* products */
+  #products {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+  #products p {
+    width: 100%;
+    text-align: left;
+    margin: auto;
+  }
+
+  .product-menu-option {
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  .product-menu-photos>div {
+    margin: 20%;
+    margin: auto;
+    background-color: #ffffff;
+    position: absolute;
+
+  }
+
+  .each-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .each-product-image {
+    margin: auto;
+  }
+
+  .each-product-image>img {
+    margin: -25px;
+    height: 400px;
+    width: 300px;
+    /* width: 90%;
+        height:400px; */
+    border-radius: 3%;
+  }
+}
