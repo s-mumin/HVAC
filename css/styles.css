@@ -116,7 +116,7 @@ i {
   /* margin: 200px;
     height: 40vh;
     width: 100vw; */
-  /* background-image: url("/images/image-1.jpg"); */
+  background-image: url("../images/image-1.jpg");
   clip-path: polygon(100% 0, 100% 100%, 45% 100%, 67% 0);
   position: absolute;
 }
@@ -268,14 +268,14 @@ i {
 
 .slide:nth-child(2) {
   background-color: #b03532;
-  background-image: url("/images/image-2.jpg");
+  background-image: url("../images/image-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide:nth-child(3) {
   background-color: #6a478f;
-  background-image: url("/images/stockvault-mitsubishi-floor-console-heat-pump136320.jpg");
+  background-image: url("../images/stockvault-mitsubishi-floor-console-heat-pump136320.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
