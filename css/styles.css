@@ -116,7 +116,7 @@ i {
   /* margin: 200px;
     height: 40vh;
     width: 100vw; */
-  background-image: url("/images/image-1.jpg");
+  /* background-image: url("/images/image-1.jpg"); */
   clip-path: polygon(100% 0, 100% 100%, 45% 100%, 67% 0);
   position: absolute;
 }
@@ -384,6 +384,12 @@ i {
   margin: auto;
   width: 60%;
   opacity: 1
+}
+
+#map{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #services {
