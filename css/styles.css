@@ -261,7 +261,7 @@ i {
 
 .slide:nth-child(1) {
   background-color: #49b293;
-  background-image: url("/images/vent.jpg");
+  background-image: url("../images/vent.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
